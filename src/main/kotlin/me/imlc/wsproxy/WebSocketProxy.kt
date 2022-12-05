@@ -38,7 +38,7 @@ class WebSocketProxy(private val vertx: Vertx = Vertx.vertx()) {
 
   companion object {
 
-    private val logger = LoggerFactory.getLogger(TtydProxy::class.java)
+    private val logger = LoggerFactory.getLogger(WebSocketProxy::class.java)
 
     @JvmStatic
     fun main(args: Array<String>) {
